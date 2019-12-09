@@ -1,0 +1,58 @@
+package Labs1;
+
+public class CardClass
+{
+	public String getValue()
+	{
+
+		int x = (int)(1 + Math.random() * 13);
+		String Value;
+		
+		if (x == 1)
+		{
+			Value = "Ace";
+		}
+		else if (x == 11)
+		{
+			Value = "Jack";
+		}
+		else if (x == 12)
+		{
+			Value = "Queen";
+		}
+		else if (x == 13)
+		{
+			Value = "King";
+		}
+		else
+		{
+			Value = Integer.toString(x);
+		}
+		return Value;
+	}
+	
+	public String getSuit()
+	{
+		int y = (int)(1 + Math.random() * 4);
+		String Suit;
+		
+		if (y == 1)
+		{
+			Suit = "Hearts";
+		}
+		else if (y == 2)
+		{
+			Suit = "Diamonds";
+		}
+		else if (y == 3)
+		{
+			Suit = "Spades";
+		}
+		else
+		{
+			Suit = "Clubs";
+		}
+		
+		return Suit;
+	}
+}

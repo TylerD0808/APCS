@@ -1,0 +1,10 @@
+package Labs1;
+
+public class CardTester
+{
+	public static void main(String[] args)
+	{
+		CardClass card = new CardClass();
+		card.getCards();
+	}
+}

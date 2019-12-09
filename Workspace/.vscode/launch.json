@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ChangingPeople",
+            "request": "launch",
+            "mainClass": "ChangingPeople",
+            "projectName": "Chapter4 (2)"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lab5",
+            "request": "launch",
+            "mainClass": "Labs1.Lab5",
+            "projectName": "Chapter4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lab6",
+            "request": "launch",
+            "mainClass": "Labs1.Lab6",
+            "projectName": "Chapter4"
+        }
+    ]
+}
