@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Comparisons",
+            "request": "launch",
+            "mainClass": "Labs1.Comparisons"
+        }
+    ]
+}
