@@ -22,19 +22,19 @@ public class TestAccount
 	name = scan.next();
 	acct = new Account(name);
 	System.out.println("Account for " + name + ":");
-	System.out.println(acct);
+	System.out.println(acct.toString());
 
 	System.out.println("\nEnter initial balance");
 	balance = scan.nextDouble();
 	acct = new Account(balance,name);
 	System.out.println("Account for " + name + ":");
-	System.out.println(acct);
+	System.out.println(acct.toString());
 
 	System.out.println("\nEnter account number");
 	acctNum = scan.nextLong();
 	acct = new Account(balance,name,acctNum);
 	System.out.println("Account for " + name + ":");
-	System.out.println(acct);
+	System.out.println(acct.toString());
 
 	System.out.print("\nDepositing 100 into account, balance is now ");
 	acct.deposit(100);

@@ -22,6 +22,19 @@ public class Account
     acctNum = number;
   }
 
+  public Account (double initBal, String owner)
+  {
+      balance = initBal;
+      name = owner;
+      acctNum = (int)((Math.random() * 9999) + 1);
+  }
+
+  public Account (String owner)
+  {
+    name = owner;
+    balance = 0.0;
+    acctNum = (int)((Math.random() * 9999) + 1);
+  }
   //----------------------------------------------
   // Checks to see if balance is sufficient for withdrawal.
   // If so, decrements balance by amount; if not, prints message.
@@ -32,6 +45,18 @@ public class Account
        balance -= amount;
     else
        System.out.println("Insufficient funds");
+  }
+
+  public void withdraw(double amount, double fee)
+  {
+    if (balance >= (amount + fee))
+    {
+      balance -= (amount + fee);
+    }
+    else
+    {
+      System.out.println("Insufficient funds");
+    }
   }
 
   //----------------------------------------------
@@ -52,10 +77,9 @@ public class Account
   //----------------------------------------------
   // Returns a string containing the name, account number, and balance.
   //----------------------------------------------
+
   public String toString()
   {
-	return �Name:� + name + 
-        �\nAccount Number: � + acctNum +
-        �\nBalance: � + balance; 
+    return "Name: " + name + "\nBalance: " + balance + "\nAccount Number: " + acctNum;
   }
 }
