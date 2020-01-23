@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "APCompSci"
+		}
+	],
+	"settings": {
+		"editor.autoClosingBrackets": "never",
+		"editor.autoClosingQuotes": "never"
+	}
+}
