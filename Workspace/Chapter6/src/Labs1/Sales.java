@@ -13,7 +13,7 @@ public class Sales
     {
 	final int SALESPEOPLE = 5;
 	int[] sales = new int[SALESPEOPLE];
-	int sum;
+	int sum, average;
 
 	Scanner scan = new Scanner(System.in);
 
@@ -26,12 +26,29 @@ public class Sales
 	System.out.println("\nSalesperson   Sales");
 	System.out.println("--------------------");
 	sum = 0;
+	int highestSale = sales[0], salesPerson = 0, lowestSale = sales[0], salesPerson2 = 0;
 	for (int i=0; i<sales.length; i++)
 	    {
 		System.out.println("     " + i + "         " + sales[i]);
 		sum += sales[i];
-	    }
+
+			if (sales[i] > highestSale)
+			{
+				highestSale = sales[i];
+				salesPerson = i;
+			}
+
+			if (sales[i] < lowestSale)
+			{
+				lowestSale = sales[i];
+				salesPerson2 = i;
+			}
+		}
+		
+		average = sum/SALESPEOPLE;
 
 	System.out.println("\nTotal sales: " + sum);
+	System.out.println("Average sale: " + average);
+	System.out.println("Salesperson " + salesPerson + " had the highest sale with $" + highestSale);
     }
 }

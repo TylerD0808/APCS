@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Sales",
+            "request": "launch",
+            "mainClass": "Sales"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Comparisons",
             "request": "launch",
             "mainClass": "Labs1.Comparisons"
