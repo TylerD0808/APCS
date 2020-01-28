@@ -1,5 +1,3 @@
-package Examples;
-
 public class BooleanOperatorsAndTypeComparison
 {
 	public static void main(String[] args) 

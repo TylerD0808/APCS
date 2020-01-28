@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Forever.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates an INFINITE LOOP.  WARNING!!
-//********************************************************************
-
 public class Forever
 {
    //-----------------------------------------------------------------
@@ -17,7 +10,7 @@ public class Forever
       while (count <= 25)
       {
          System.out.println (count);
-         count = count - 1;
+         count = count--;
       }
 
       System.out.println ("Done");  // this statement is never reached

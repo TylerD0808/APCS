@@ -1,10 +1,3 @@
- package Examples;
-//********************************************************************
-//  PalindromeTester.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of nested while loops.
-//********************************************************************
-
 import java.util.Scanner;
 
 public class PalindromeTester

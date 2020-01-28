@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  URLDissector.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of Scanner to read file input and parse it
-//  using alternative delimiters.
-//********************************************************************
-
 import java.util.Scanner;
 import java.io.*;
 

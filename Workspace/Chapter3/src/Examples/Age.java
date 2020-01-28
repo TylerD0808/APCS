@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Age.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of an if statement.
-//********************************************************************
-
 import java.util.Scanner;
 
 public class Age

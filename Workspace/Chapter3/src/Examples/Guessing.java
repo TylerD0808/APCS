@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Guessing.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of a block statement in an if-else.
-//********************************************************************
-
 import java.util.Scanner;
 import java.util.Random;
 

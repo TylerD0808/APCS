@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Multiples.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of a for loop.
-//********************************************************************
-
 import java.util.Scanner;
 
 public class Multiples

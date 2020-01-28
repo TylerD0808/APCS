@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  ExamGrades.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of various control structures.
-//********************************************************************
-
 import java.text.DecimalFormat;
 import java.util.Scanner;
 

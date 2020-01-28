@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Bullseye.java       Author: Lewis/Loftus/Cocking
-//  
-//  Demonstrates the use of conditionals and loops to guide drawing.
-//********************************************************************
-
 import java.applet.Applet;
 import java.awt.*;
 

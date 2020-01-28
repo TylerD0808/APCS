@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  MinOfThree.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of nested if statements.
-//********************************************************************
-
 import java.util.Scanner;
 
 public class MinOfThree

@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  IceCreamShop.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of a foreach loop on an enumerated type.
-//********************************************************************
-
 public class IceCreamShop
 {
    enum Flavor {vanilla, chocolate, strawberry, fudgeRipple, coffee,

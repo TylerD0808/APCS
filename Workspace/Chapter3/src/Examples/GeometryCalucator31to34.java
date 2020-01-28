@@ -1,11 +1,3 @@
-package Examples;
-
-/* Author: 
- * 
- * Program will calculate area of some 2D shapes and volumes of 3D shapes
- * To do this we will use if - else if - else statements
- */
-
 import java.util.Scanner;
 
 public class GeometryCalucator31to34

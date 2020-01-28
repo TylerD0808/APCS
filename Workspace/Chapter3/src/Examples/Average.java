@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  Average.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of a while loop, a sentinel value, and a
-//  running sum.
-//********************************************************************
-
 import java.text.DecimalFormat;
 import java.util.Scanner;
 

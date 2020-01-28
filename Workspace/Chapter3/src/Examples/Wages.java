@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Wages.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of an if-else statement.
-//********************************************************************
-
 import java.text.NumberFormat;
 import java.util.Scanner;
 

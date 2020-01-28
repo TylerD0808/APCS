@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  WinPercentage.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of a while loop for input validation.
-//********************************************************************
-
 import java.text.NumberFormat;
 import java.util.Scanner;
 
