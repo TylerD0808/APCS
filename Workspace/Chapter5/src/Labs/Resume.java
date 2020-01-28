@@ -1,6 +1,3 @@
-package Labs1;
-
-//class
 public class Resume 
 {
     //declaring instance data

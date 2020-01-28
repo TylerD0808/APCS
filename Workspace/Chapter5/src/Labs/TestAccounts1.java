@@ -1,8 +1,3 @@
-//***********************************************************
-// TestAccounts1.java
-// A simple program to test the numAccts method of the 
-// Account class.  
-//***********************************************************
 import java.util.Scanner;
 
 public class TestAccounts1

@@ -1,11 +1,3 @@
-//*******************************************************
-// Account.java
-//
-// A bank account class with methods to deposit to, withdraw from,
-// change the name on, and get a String representation
-// of the account.
-//*******************************************************
-
 public class Account
 {
   private double balance;

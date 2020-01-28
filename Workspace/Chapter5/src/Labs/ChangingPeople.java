@@ -1,11 +1,3 @@
-
-// **********************************************************************
-//   ChangingP eople.java
-//
-//   Demonstrates parameter passing -- contains a method that should
-//   change to Person objects.
-// **********************************************************************
-
 public class ChangingPeople
 {
     // ---------------------------------------------------------

@@ -1,9 +1,3 @@
-//*******************************************************
-// ProcessTransactions.java
-//
-// A class to process deposits and withdrawals for two bank
-// accounts for a single day.
-//*******************************************************
 import java.util.Scanner;
 
 public class ProcessTransactions

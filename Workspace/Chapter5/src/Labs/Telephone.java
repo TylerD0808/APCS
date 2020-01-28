@@ -1,10 +1,3 @@
-//******************************************************
-// Telephone.java
-//
-// Uses the TelephonePanel class to create a (functionless) GUI 
-// like a telephone keypad with a title.
-// Illustrates use of BorderLayout and GridLayout.
-//******************************************************
 import javax.swing.*;
 public class Telephone
 {

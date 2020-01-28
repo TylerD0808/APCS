@@ -1,9 +1,3 @@
-//********************************************************************
-//  MiniQuiz.java       Author: Lewis/Loftus
-//
-//  Demonstrates the use of a class that implements an interface.
-//********************************************************************
-
 import java.util.Scanner;
 
 public class MiniQuiz

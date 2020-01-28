@@ -1,8 +1,3 @@
-// ****************************************************************
-//   Person.java
-//
-//   A simple class representing a person.
-// ***************************************************************
 public class Person
 {
     private String name;

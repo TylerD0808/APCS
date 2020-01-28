@@ -1,10 +1,3 @@
-//*******************************************************
-// TestAccount.java
-//
-// A simple driver to test the overloaded methods of 
-// the Account class.
-//*******************************************************
-
 import java.util.Scanner;
 
 public class TestAccount

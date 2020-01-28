@@ -1,9 +1,3 @@
-//********************************************************************
-//  Question.java       Author: Lewis/Loftus
-//
-//  Represents a question (and its answer).
-//********************************************************************
-
 public class Question implements Complexity
 {
    private String question, answer;

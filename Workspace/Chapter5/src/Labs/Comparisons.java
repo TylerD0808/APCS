@@ -1,7 +1,7 @@
- import java.util.Scanner; 
+import java.util.Scanner; 
  
- public class Comparisons
- {
+public class Comparisons
+{
      public static void main (String[]args)
      {
         Scanner scan = new Scanner(System.in);
@@ -32,7 +32,5 @@
         Comparable int3 = scan.nextInt();
 
         System.out.println("Largest integer: " + Compare3.largest(int1, int2, int3));
-        
-
     }
- }
+}

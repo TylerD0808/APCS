@@ -1,9 +1,3 @@
-// ***********************************************************
-//  TestWalk.java
-//
-//  Program to test methods in the RandomWalk class.
-// ***********************************************************
-
 import java.util.Scanner;
 
 public class TestWalk
@@ -25,8 +19,8 @@ public class TestWalk
 	System.out.print ("Enter the maximum number of steps: ");
 	maxSteps = scan.nextInt();
 
-	System.out.print ("Enter the starting x and y coordinates with “ +
-			   “a space between: ");
+	System.out.print ("Enter the starting x and y coordinates with ï¿½ +
+			   ï¿½a space between: ");
 	x = scan.nextInt();
 	y = scan.nextInt();
 
