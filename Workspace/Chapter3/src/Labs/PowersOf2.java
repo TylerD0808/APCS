@@ -16,7 +16,7 @@ public class PowersOf2
         //print a message saying how many powers of 2 will be printed
         //initialize exponent -- the first thing printed is 2 to the what?
 
-	  while (  )
+	  //while (  )
         {
 	      //print out current power of 2
 

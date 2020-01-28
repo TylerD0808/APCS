@@ -1,12 +1,12 @@
 import java.util.Scanner;
 import java.text.NumberFormat;
 
-public class Salary
+public class Salary2
 {
    public static void main (String[] args)
    {
        double currentSalary;  // employee's current  salary
-       double raise;          // amount of the raise
+       double raise = 0.0;          // amount of the raise
        double newSalary;      // new salary for the employee
        String rating;         // performance rating
 

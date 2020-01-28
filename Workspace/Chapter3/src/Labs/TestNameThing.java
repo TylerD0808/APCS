@@ -9,7 +9,7 @@ public class TestNameThing
 	   System.out.println("Please enter your name (Last, First): ");
 	   name = scan.nextLine();
 	   int num = 0;
-	   while (name.charAt(num) != ",")
+	   while (name.charAt(num) != ',')
 	   {
 		   num = num + 1;
 	   }
