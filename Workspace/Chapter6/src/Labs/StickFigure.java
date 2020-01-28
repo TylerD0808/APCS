@@ -1,9 +1,3 @@
-// *******************************************************
-//    StickFigure.java
-//
-//    Represents a graphical stick figure
-// *******************************************************
-
 import java.awt.*;
 
 public class StickFigure

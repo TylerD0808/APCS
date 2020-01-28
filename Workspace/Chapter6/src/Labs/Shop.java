@@ -1,10 +1,3 @@
-// ***************************************************************
-//   Shop.java
-//
-//   Uses the Item class to create items and add them to a shopping
-//   cart stored in an ArrayList.
-// ***************************************************************
-
 import java.util.ArrayList;
 import java.util.Scanner;
 

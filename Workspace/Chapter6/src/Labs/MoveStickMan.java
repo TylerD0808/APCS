@@ -1,8 +1,3 @@
-// *****************************************************************
-//   MoveStickMan.java
-//
-//   Uses key events to move a stick figure around.
-// *****************************************************************
 import javax.swing.*;
 
 public class MoveStickMan

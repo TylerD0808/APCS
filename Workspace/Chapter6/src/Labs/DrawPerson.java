@@ -1,9 +1,3 @@
-// *******************************************************************
-//   DrawPerson.java
-//
-//   An program that uses the Graphics draw methods to draw a person.         
-// *******************************************************************
-
 import javax.swing.JFrame;
 
 public class DrawPerson

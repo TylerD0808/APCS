@@ -1,12 +1,3 @@
-// *******************************************************************
-// FILE:  MovePanel.java
-//
-// The display panel for a key events program  -- arrow keys are used
-// to move a stick figure around, the g key is used to make the figure
-// grow by 50% (increase in height by 50%), the s key causes the
-// figure to shrink (to half its size)
-// *******************************************************************
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

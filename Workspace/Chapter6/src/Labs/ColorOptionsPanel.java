@@ -1,10 +1,3 @@
-// *************************************************************************
-//  ColorOptionsPanel.java
-// 
-//  Represents the user interface for the ColorOptions program that lets
-//  the user change background color by selecting a radio button.
-// *************************************************************************
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

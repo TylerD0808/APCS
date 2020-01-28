@@ -1,9 +1,3 @@
-// *******************************************************************
-//   DrawPersonPanel.java
-//
-//   An program that uses the Graphics draw methods to draw a person.         
-// *******************************************************************
-
 import javax.swing.JPanel;
 import java.awt.*;
 

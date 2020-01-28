@@ -1,10 +1,3 @@
-//*************************************************************************
-//  CirclePanel.java  
-//
-//  Represents the primary panel for the Circles program on which the
-//  circles are drawn.  Derived from the Lewis and Loftus DotsPanel class.
-//*************************************************************************
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

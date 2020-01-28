@@ -1,9 +1,3 @@
-// **********************************************************************
-//   ColorOptions.java
-//
-//   Uses an array of radio buttons to change the background color.
-// **********************************************************************
-
 import javax.swing.*;
 
 public class ColorOptions

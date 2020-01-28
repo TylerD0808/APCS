@@ -1,9 +1,3 @@
-// ***************************************************************
-//   Item.java
-//
-//   Represents an item in a shopping cart.
-// ***************************************************************
-
 import java.text.NumberFormat;
 
 public class Item

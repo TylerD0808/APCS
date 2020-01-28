@@ -1,11 +1,3 @@
-// ****************************************************************
-// SquareTest.java
-//
-// Uses the Square class to read in square data and tell if 
-// each square is magic.
-//          
-// ****************************************************************
-
 import java.util.Scanner;
 
 public class SquareTest

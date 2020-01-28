@@ -1,9 +1,3 @@
-// **********************************************************************
-//   ShoppingCart.java
-//
-//   Represents a shopping cart as an array of items
-// **********************************************************************
-
 import java.text.NumberFormat;
 
 public class ShoppingCart

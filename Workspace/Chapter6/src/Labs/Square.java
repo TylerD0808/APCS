@@ -1,12 +1,3 @@
-// ****************************************************************
-// Square.java
-//
-// Define a Square class with methods to create and read in
-// info for a square matrix and to compute the sum of a row,
-// a col, either diagonal, and whether it is magic.
-//          
-// ****************************************************************
-
 import java.util.Scanner;
 
 public class Square

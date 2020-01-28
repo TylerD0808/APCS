@@ -1,12 +1,3 @@
-// ****************************************************************
-// Circle.java
-//
-// Define a Circle class with methods to create and draw
-// a circle of random size, color, and location.
-//          
-// ****************************************************************
-
-
 import java.awt.*;
 import java.util.Random;
 

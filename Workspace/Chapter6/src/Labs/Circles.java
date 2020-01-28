@@ -1,10 +1,3 @@
-//********************************************************************
-//  Circles.java      
-//
-//  Demonstrates mouse events and drawing on a panel.
-//  Derived from Dots.java in Lewis and Loftus
-//********************************************************************
-
 import javax.swing.JFrame;
 
 public class Circles
