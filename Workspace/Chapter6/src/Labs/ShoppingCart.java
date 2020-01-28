@@ -35,7 +35,7 @@ public class ShoppingCart
 	contents += "\nItem\t\tUnit Price\tQuantity\tTotal\n";
 
 	for (int i = 0; i < itemCount; i++)
-	    contents += cart[i].toString() + "\n";
+	    //contents += cart[i].toString() + "\n";
 
 	contents += "\nTotal Price: " + fmt.format(totalPrice);
 	contents += "\n";
