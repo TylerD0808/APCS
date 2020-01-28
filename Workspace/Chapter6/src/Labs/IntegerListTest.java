@@ -1,9 +1,3 @@
-// ****************************************************************
-// IntegerListTest.java
-//
-// Provide a menu-driven tester for the IntegerList class.
-//          
-// ****************************************************************
 import java.util.Scanner;
 
 public class IntegerListTest

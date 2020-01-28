@@ -1,11 +1,3 @@
-// ****************************************************************
-// IntegerList.java
-//
-// Define an IntegerList class with methods to create & fill
-// a list of integers.
-//          
-// ****************************************************************
-
 public class IntegerList
 {
     int[] list; //values in the list
@@ -24,7 +16,7 @@ public class IntegerList
     //-------------------------------------------------------
     public void randomize()
     {
-	for (int i=0; i<list.length; i++)
+	for (int i = 0; i < list.length; i++)
 	    list[i] = (int)(Math.random() * 100) + 1;
     }
 
@@ -33,7 +25,12 @@ public class IntegerList
     //-------------------------------------------------------
     public void print()
     {
-	for (int i=0; i<list.length; i++)
+	for (int i = 0; i < list.length; i++)
 	    System.out.println(i + ":\t" + list[i]);
+    }
+
+    public void increaseSize()
+    {
+        
     }
 }
