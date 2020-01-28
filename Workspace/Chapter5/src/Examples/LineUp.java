@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  LineUp.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of a graphical object.
-//********************************************************************
-
 import java.util.Random;
 import java.applet.Applet;
 import java.awt.*;

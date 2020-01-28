@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  CountFlips.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of a programmer-defined class.
-//********************************************************************
-
 public class CountFlips
 {
    //-----------------------------------------------------------------

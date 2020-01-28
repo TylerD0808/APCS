@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Address.java       Author: Lewis/Loftus/Cocking
-//
-//  Represents a street address.
-//********************************************************************
-
 public class Address
 {
    private String streetAddress, city, state;

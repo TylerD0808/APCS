@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Rational.java       Author: Lewis/Loftus/Cocking
-//
-//  Represents one rational number with a numerator and denominator.
-//********************************************************************
-
 public class Rational
 {
    private int numerator, denominator;

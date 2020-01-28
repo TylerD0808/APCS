@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Student.java       Author: Lewis/Loftus/Cocking
-//
-//  Represents a college student.
-//********************************************************************
-
 public class Student
 {
    private String firstName, lastName;

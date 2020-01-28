@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  PigLatin.java       Author: Lewis/Loftus/Cocking
-//
-//  Driver to exercise the PigLatinTranslator class.
-//********************************************************************
-
 import java.util.Scanner;
 
 public class PigLatin

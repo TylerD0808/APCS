@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Banking.java       Author: Lewis/Loftus/Cocking
-//
-//  Driver to exercise the use of multiple Account objects.
-//********************************************************************
-
 public class Banking
 {
    //-----------------------------------------------------------------

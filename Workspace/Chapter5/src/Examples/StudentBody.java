@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  StudentBody.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of an aggregate class.
-//********************************************************************
-
 public class StudentBody 
 {
    //-----------------------------------------------------------------
