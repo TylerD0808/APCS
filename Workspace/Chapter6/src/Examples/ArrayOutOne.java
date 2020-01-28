@@ -1,8 +1,3 @@
-//(c) A+ Computer Science
-// www.apluscompsci.com
-
-//array output example 1
-
 import static java.lang.System.*;
 
 public class ArrayOutOne

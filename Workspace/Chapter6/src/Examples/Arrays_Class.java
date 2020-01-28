@@ -1,8 +1,3 @@
-//(c) A+ Computer Science
-// www.apluscompsci.com
-
-//array sort example
-
 import java.util.Arrays;
 import static java.lang.System.*;
 

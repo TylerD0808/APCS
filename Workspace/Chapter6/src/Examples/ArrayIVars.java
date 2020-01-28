@@ -1,8 +1,3 @@
-//(c) A+ Computer Science
-// www.apluscompsci.com
-
-//Array instance variable example
-
 import java.util.Scanner;
 import static java.lang.System.*;
 

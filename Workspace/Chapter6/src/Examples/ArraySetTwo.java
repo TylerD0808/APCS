@@ -1,8 +1,3 @@
-//(c) A+ Computer Science
-// www.apluscompsci.com
-
-//array set example 2
-
 import static java.lang.System.*;
 
 public class ArraySetTwo

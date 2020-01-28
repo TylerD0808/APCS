@@ -1,8 +1,3 @@
-//(c) A+ Computer Science
-// www.apluscompsci.com
-
-//array delete example
-
 import static java.lang.System.*;
 
 public class ArrayCount

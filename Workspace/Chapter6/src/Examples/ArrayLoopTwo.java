@@ -1,8 +1,3 @@
-//(c) A+ Computer Science
-// www.apluscompsci.com
-
-//array loop access example
-
 import static java.lang.System.*;
 
 public class ArrayLoopTwo
