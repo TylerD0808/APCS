@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  IceCream.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of enumerated types.
-//********************************************************************
-
 public class IceCream
 {
    enum Flavor {vanilla, chocolate, strawberry, fudgeRipple, coffee,

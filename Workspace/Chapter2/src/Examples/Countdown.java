@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Countdown.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the difference between print and println.
-//********************************************************************
-
 public class Countdown
 {
    //-----------------------------------------------------------------

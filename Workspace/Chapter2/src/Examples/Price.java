@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  Price.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of various Scanner and NumberFormat
-//  methods.
-//********************************************************************
-
 import java.util.Scanner;
 import java.text.NumberFormat;
 

@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  TempConverter.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of primitive data types and arithmetic
-//  expressions.
-//********************************************************************
-
 public class TempConverter
 {
    //-----------------------------------------------------------------

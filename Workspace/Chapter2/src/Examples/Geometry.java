@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  Geometry.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of an assignment statement to change the
-//  value stored in a variable.
-//********************************************************************
-
 public class Geometry
 {
    //-----------------------------------------------------------------

@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  Addition.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the difference between the addition and string
-//  concatenation operators.
-//********************************************************************
-
 public class Addition
 {
    //-----------------------------------------------------------------

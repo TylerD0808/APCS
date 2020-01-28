@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Snowman.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates basic drawing methods and the use of color.
-//********************************************************************
-
 import java.applet.Applet;
 import java.awt.*;
 

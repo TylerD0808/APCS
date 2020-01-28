@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Quadratic.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates a calculation based on user input.
-//********************************************************************
-
 import java.util.Scanner;
 
 public class Quadratic

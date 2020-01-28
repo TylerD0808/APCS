@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  CircleStats.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the formatting of decimal values using the
-//  DecimalFormat class.
-//********************************************************************
-
 import java.util.Scanner;
 import java.text.DecimalFormat;
 

@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  Echo.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of the nextLine method of the Scanner class
-//  to read a string from the user.
-//********************************************************************
-
 import java.util.Scanner;
 
 public class Echo

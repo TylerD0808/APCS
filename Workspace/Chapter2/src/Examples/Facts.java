@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  Facts.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of the string concatenation operator and the
-//  automatic conversion of an integer to a string.
-//********************************************************************
-
 public class Facts
 {
    //-----------------------------------------------------------------

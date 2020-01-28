@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  PianoKeys.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the declaration, initialization, and use of an
-//  integer variable.
-//********************************************************************
-
 public class PianoKeys
 {
    //-----------------------------------------------------------------

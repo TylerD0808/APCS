@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  RandomNumbers.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the import statement, and the creation of pseudo-
-//  random numbers using the Random class.
-//********************************************************************
-
 import java.util.Random;
 
 public class RandomNumbers

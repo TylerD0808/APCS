@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  StringMutation.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of the String class and its methods.
-//********************************************************************
-
 public class StringMutation
 {
    //-----------------------------------------------------------------

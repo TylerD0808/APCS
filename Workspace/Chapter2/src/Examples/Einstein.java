@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Einstein.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates a basic applet.
-//********************************************************************
-
 import java.applet.Applet;
 import java.awt.*;
 
