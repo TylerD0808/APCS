@@ -1,10 +1,3 @@
-package Labs1;
-// ****************************************************************
-// Dates.java
-//
-// Determine whether a 2nd-millenium date entered by the user
-// is valid          
-// ****************************************************************
 import java.util.Scanner;
 
 public class Dates

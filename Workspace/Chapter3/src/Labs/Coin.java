@@ -1,10 +1,3 @@
-package Labs1;
-// *******************************************************************
-//   Coin.java            Author: Lewis and Loftus
-//
-//   Represents a coin with two sides that can be flipped.
-// *******************************************************************
-
 public class Coin
 {
     public final int HEADS = 0;

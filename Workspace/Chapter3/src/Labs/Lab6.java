@@ -1,10 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   LoveCS.java
-//
-//   Use a while loop to print many messages declaring your 
-//   passion for computer science
-// ****************************************************************
 import java.util.Scanner;
 
 public class Lab6

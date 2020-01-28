@@ -1,10 +1,3 @@
-package Labs1;
-//********************************************************************
-//  EvenOdd.java       Author: Lewis/Loftus
-//
-//  Demonstrates the use of the JOptionPane class.
-//********************************************************************
-
 import javax.swing.JOptionPane;
 
 class EvenOdd

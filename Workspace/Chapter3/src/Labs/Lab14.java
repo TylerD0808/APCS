@@ -1,10 +1,3 @@
-package Labs1;
-// ********************************************************************
-// Runs.java
-//
-// Finds the length of the longest run of heads in 100 flips of a coin.
-// ********************************************************************
-
 public class Lab14
 {
     public static void main (String[] args)

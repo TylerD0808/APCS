@@ -1,8 +1,3 @@
-package Labs1;
-// ***************************************************************
-//   Salary.java
-//   Computes the raise and new salary for an employee
-// ***************************************************************
 import java.util.Scanner;
 import java.text.NumberFormat;
 

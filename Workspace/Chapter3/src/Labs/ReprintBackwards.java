@@ -1,4 +1,3 @@
-package Labs1;
 import java.util.Scanner;
 
 public class ReprintBackwards

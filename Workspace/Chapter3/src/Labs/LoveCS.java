@@ -1,11 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   LoveCS.java
-//
-//   Use a while loop to print many messages declaring your 
-//   passion for computer science
-// ****************************************************************
-
 public class LoveCS
 {
     public static void main(String[] args)

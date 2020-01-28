@@ -1,14 +1,3 @@
-package Labs1;
-// **********************************************************
-//   Temps.java
-//
-//   This program reads in a sequence of hourly temperature 
-//   readings (beginning with midnight) and prints the maximum
-//   temperature (along with the hour, on a 24-hour clock, it 
-//   occurred) and the minimum temperature (along with the hour
-//   it occurred).
-// **********************************************************
-
 import java.util.Scanner;
 
 public class Temps

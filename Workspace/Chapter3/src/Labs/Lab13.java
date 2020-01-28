@@ -1,12 +1,3 @@
-package Labs1;
-// **********************************************************
-//   Count.java
-//
-//   This program reads in strings (phrases) and counts the 
-//   number of blank characters and certain other letters
-//   in the phrase.
-// **********************************************************
-
 import java.util.Scanner;
 
 public class Lab13

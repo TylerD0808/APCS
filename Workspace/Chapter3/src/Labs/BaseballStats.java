@@ -1,14 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   BaseballStats.java
-//
-//   Reads baseball data in from a comma delimited file. Each line
-//   of the file contains a name followed by a list of symbols
-//   indicating the result of each at bat: h for hit, o for out,
-//   w for walk, s for sacrifice.  Statistics are computed and
-//   printed for each player.
-// ****************************************************************
-
 import java.util.Scanner;
 import java.io.*;
 

@@ -1,10 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   Guess.java
-//
-//   Play a game where the user guesses a number from 1 to 10
-//          
-// ****************************************************************
 import java.util.Scanner;
 import java.util.Random;
 

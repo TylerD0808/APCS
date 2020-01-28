@@ -1,11 +1,3 @@
-package Labs1;
-// ***************************************************************
-//   Grades.java
-//
-//   Read in a sequence of grades and compute the average
-//   grade, the number of passing grades (at least 60)
-//   and the number of failing grades.
-// ***************************************************************
 import java.util.Scanner;
 
 public class Grades

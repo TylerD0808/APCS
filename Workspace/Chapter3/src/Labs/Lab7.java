@@ -1,10 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   PowersOf2.java
-//
-//   Print out as many powers of 2 as the user requests
-//          
-// ****************************************************************
 import java.util.Scanner;
 
 public class Lab7

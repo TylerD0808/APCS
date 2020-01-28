@@ -1,16 +1,3 @@
-package Labs1;
-// ***************************************************************
-//   Election.java
-//
-//   This file contains a program that tallies the results of
-//   an election.  It reads in the number of votes for each of
-//   two candidates in each of several precincts.  It determines
-//   the total number of votes received by each candidate, the
-//   percent of votes received by each candidate, the number of 
-//   precincts each candidate carries, and the 
-//   maximum winning margin in a precinct.
-// **************************************************************
-
 import java.util.Scanner;
 import java.text.DecimalFormat;
 

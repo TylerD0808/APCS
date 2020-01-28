@@ -1,10 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   Rock.java
-//
-//   Play Rock, Paper, Scissors with the user
-//          
-// ****************************************************************
 import java.util.Scanner;
 import java.util.Random;
 

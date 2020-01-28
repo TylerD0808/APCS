@@ -1,10 +1,3 @@
-package Labs1;
-//********************************************************************
-//  StyleOptionsPanel.java       Author: Lewis/Loftus
-//
-//  Demonstrates the use of check boxes.
-//********************************************************************
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
