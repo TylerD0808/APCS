@@ -10,18 +10,18 @@ public class LuckyNumbers
       // Generate lucky1 (a random integer between 50 and 79) using the 
       // nextInt method (with no parameter)
 
-      lucky1 = ______________________________________________________;
+      //lucky1 = ______________________________________________________;
 
 	   // Generate lucky2 (a random integer between 90 and 100) using the
       // nextInt method with an integer parameter
  
-      lucky2 = ______________________________________________________;
+      //lucky2 = ______________________________________________________;
 
       // Generate lucky3 (a random integer between 11 and 30) using nextFloat
 
-      lucky3 = ______________________________________________________;
+      //lucky3 = ______________________________________________________;
 
-      System.out.println ("Your lucky numbers are " + lucky1 + ", " + lucky2
-                            + ", and " + lucky3);
+      //System.out.println ("Your lucky numbers are " + lucky1 + ", " + lucky2
+      //                      + ", and " + lucky3);
     }
 }

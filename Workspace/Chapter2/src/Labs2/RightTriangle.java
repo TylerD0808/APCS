@@ -13,15 +13,9 @@ public class RightTriangle
       System.out.print ("Please enter the lengths of the two sides of " +
                           "a right triangle (separate by a blank space): ");
       
-      _____________________________________________________________;
-
-      _____________________________________________________________;
-
       // Compute the length of the hypotenuse
 
-      _____________________________________________________________;
-
       // Print the result
-      System.out.println ("Length of the hypotenuse: " + hypotenuse);
+      //System.out.println ("Length of the hypotenuse: " + hypotenuse);
     }
 }
