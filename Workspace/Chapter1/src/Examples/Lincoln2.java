@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Lincoln2.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates a poorly formatted, though valid, program.
-//********************************************************************
-
 public class Lincoln2
 {
 	public static void main(String[]args)

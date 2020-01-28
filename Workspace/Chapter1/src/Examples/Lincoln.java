@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  Lincoln.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the basic structure of a Java application.
-//********************************************************************
-
 public class Lincoln
 {
    //-----------------------------------------------------------------
