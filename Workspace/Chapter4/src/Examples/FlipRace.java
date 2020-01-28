@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  FlipRace.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the existence of separate data space in multiple
-//  instantiations of a programmer-defined class.
-//********************************************************************
-
 public class FlipRace
 {
    //-----------------------------------------------------------------

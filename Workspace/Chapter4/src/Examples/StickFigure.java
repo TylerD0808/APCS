@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  StickFigure.java       Author: Lewis/Loftus/Cocking
-//
-//  Represents a graphical stick figure.
-//********************************************************************
-
 import java.awt.*;
 
 public class StickFigure

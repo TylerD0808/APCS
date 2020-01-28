@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  PigLatinTranslator.java       Author: Lewis/Loftus/Cocking
-//
-//  Represents a translation system from English to Pig Latin.
-//  Demonstrates method decomposition and the use of StringTokenizer.
-//********************************************************************
-
 import java.util.Scanner;
 
 public class PigLatinTranslator

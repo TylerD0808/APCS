@@ -1,11 +1,3 @@
-package Examples;
-//********************************************************************
-//  Account.java       Author: Lewis/Loftus/Cocking
-//
-//  Represents a bank account with basic services such as deposit
-//  and withdraw.
-//********************************************************************
-
 import java.text.NumberFormat;
 
 public class Account

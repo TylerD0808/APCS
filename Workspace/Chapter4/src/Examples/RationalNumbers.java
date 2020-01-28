@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  RationalNumbers.java       Author: Lewis/Loftus/Cocking
-//
-//  Driver to exercise the use of multiple Rational objects.
-//********************************************************************
-
 public class RationalNumbers
 {
    //-----------------------------------------------------------------

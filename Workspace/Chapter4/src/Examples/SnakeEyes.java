@@ -1,10 +1,3 @@
-package Examples;
-//********************************************************************
-//  SnakeEyes.java       Author: Lewis/Loftus/Cocking
-//
-//  Demonstrates the use of a class with overloaded constructors.
-//********************************************************************
-
 public class SnakeEyes
 {
    //-----------------------------------------------------------------
