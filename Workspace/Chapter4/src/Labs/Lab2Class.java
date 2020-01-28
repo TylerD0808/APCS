@@ -1,11 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   Student.java
-//
-//   Define a student class that stores name, score on test 1, and
-//   score on test 2.  Methods prompt for and read in grades, 
-//   compute the average, and return a string containing student’s info. 
-// ****************************************************************
 import java.util.Scanner;
 
 public class Lab2Class

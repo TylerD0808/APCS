@@ -1,10 +1,3 @@
-package Labs1;
-//********************************************************************
-//  BMI.java   
-//
-//  Sets up a GUI to calculate body mass index.
-//********************************************************************
-
 import javax.swing.JFrame;
 public class BMI
 {

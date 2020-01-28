@@ -1,5 +1,3 @@
-package Labs1;
-
 public class Lab4Class 
 {
 	String f, m, l, name, nameWithoutSpace;

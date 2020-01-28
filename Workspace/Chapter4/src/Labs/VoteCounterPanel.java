@@ -1,11 +1,3 @@
-package Labs1;
-//*********************************************************
-// VoteCounterPanel.java  
-//
-// Demonstrates a graphical user interface and event listeners to
-// tally votes for two candidates, Joe and Sam.
-//*********************************************************
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

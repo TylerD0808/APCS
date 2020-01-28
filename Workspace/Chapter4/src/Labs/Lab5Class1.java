@@ -1,5 +1,3 @@
-package Labs1;
-
 public class Lab5Class1
 {
 	private Lab5Class2 die1;

@@ -1,5 +1,3 @@
-package Labs1;
-
 import java.text.NumberFormat;
 
 public class Lab1

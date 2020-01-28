@@ -1,10 +1,3 @@
-package Labs1;
-//********************************************************************
-//  BMIPanel.java     
-//
-//  Computes body mass index in a GUI.
-//********************************************************************
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

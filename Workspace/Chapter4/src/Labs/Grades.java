@@ -1,11 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   Grades.java
-//
-//   Use Student class to get test grades for two students
-//   and compute averages
-//          
-// ****************************************************************
 public class Grades
 {
     public static void main(String[] args)

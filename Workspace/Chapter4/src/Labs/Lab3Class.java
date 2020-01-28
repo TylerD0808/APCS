@@ -1,5 +1,3 @@
-package Labs1;
-
 public class Lab3Class
 {
 	int boxesSold;

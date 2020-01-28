@@ -1,11 +1,3 @@
-package Labs1;
-//********************************************************************
-//  Die.java       Author: Lewis/Loftus/Cocking
-//
-//  Represents one die (singular of dice) with faces showing values
-//  between 1 and the number of faces on the die.
-//********************************************************************
-
 import java.util.Random;
 
 public class Lab5Class2

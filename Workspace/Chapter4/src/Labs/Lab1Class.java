@@ -1,11 +1,3 @@
-package Labs1;
-//*******************************************************
-// Account.java
-//
-// A bank account class with methods to deposit to, withdraw from,
-// change the name on, charge a fee to, and print a summary of the account.
-//*******************************************************
-
 public class Lab1Class
 {
   private double balance;
