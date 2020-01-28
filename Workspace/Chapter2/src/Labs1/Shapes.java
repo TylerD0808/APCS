@@ -1,11 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   Shapes.java
-//
-//   The program will draw two filled rectangles and a
-//   filled oval.
-// ****************************************************************
-
 import javax.swing.JApplet;
 import java.awt.*;
 

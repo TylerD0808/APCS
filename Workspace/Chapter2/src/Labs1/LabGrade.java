@@ -1,12 +1,3 @@
-package Labs1;
-
-// ************************************************************************
-//   LabGrade.java
-//   This program computes a student's lab grade from
-//   the grades on the three components of lab:  the pre-lab
-//   assignment, the lab itself, and the post-lab assignment.
-// ***********************************************************************
-
 import java.util.Scanner;
 
 public class LabGrade

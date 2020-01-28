@@ -1,11 +1,5 @@
-package Labs1;
-// *******************************************************************
-//   Average.java
-//
-//   Read three integers from the user and print their average
-// *******************************************************************
-
 import java.util.Scanner;
+
 public class Average
 {
   public static void main(String[] args)

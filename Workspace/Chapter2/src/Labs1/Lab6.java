@@ -1,12 +1,3 @@
-package Labs1;
-// ************************************************
-//   BaseConvert.java
-//
-//   Converts base 10 numbers to another base
-//   (at most 4 digits in the other base).  The
-//   base 10 number and the base are input.
-// ************************************************
-
 import java.util.Scanner;
 
 public class Lab6

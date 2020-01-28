@@ -1,11 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   Coords.java
-//
-//   Draw rectangles to illustrate the Java coordinate system
-//          
-// ****************************************************************
-
 import javax.swing.JApplet;
 import java.awt.*;
 

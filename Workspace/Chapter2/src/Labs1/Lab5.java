@@ -1,10 +1,3 @@
-package Labs1;
-//***************************************************************
-//File: Paint.java
-//
-//Purpose: Determine how much paint is needed to paint the walls 
-//of a room given its length, width, and height
-//***************************************************************
 import java.util.Scanner;
 
 public class Lab5

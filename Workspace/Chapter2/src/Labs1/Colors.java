@@ -1,10 +1,3 @@
-package Labs1;
-// ****************************************************************
-//   Colors.java
-//
-//   Draw rectangles to illustrate colors and their codes in Java
-// ****************************************************************
-
 import javax.swing.JApplet;
 import java.awt.*;
 

@@ -1,11 +1,3 @@
-package Labs1;
-// ***************************************************************
-//   Names.java
-//
-//   Prints a list of student names with their hometowns
-//   and intended major
-// ***************************************************************
-
 public class Lab1
 {
     // ------------------------

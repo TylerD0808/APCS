@@ -1,10 +1,3 @@
-package Labs1;
-//**********************************************************
-//  Circle.java
-//
-//  Print the area of a circle with two different radii
-//**********************************************************
-
 import java.util.Scanner;
 
 public class Lab4
