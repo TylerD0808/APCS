@@ -1,9 +1,3 @@
-package Labs2;
-//********************************************************************
-//  NestedPanels.java       Author: Lewis/Loftus
-//
-//  Demonstrates a basic component hierarchy.
-//********************************************************************
 import java.awt.*;
 import javax.swing.*;
 

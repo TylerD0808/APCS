@@ -1,10 +1,3 @@
-package Labs2;
-// *************************************************************
-//   Distance.java
-//
-//   Computes the distance between two points
-// *************************************************************
-
 import java.util.Scanner;
 
 public class Lab3

@@ -1,13 +1,3 @@
-package Labs2;
-// ********************************************************
-// DeliFormat.java
-//
-// Computes the price of a deli item given the weight
-// (in ounces) and price per pound -- prints a label, 
-// nicely formatted, for the item.
-//
-// ********************************************************
-
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Scanner;

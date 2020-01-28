@@ -1,11 +1,5 @@
-package Labs2;
-// *******************************************************************
-//   RightTriangle.java
-//
-//   Compute the length of the hypotenuse of a right triangle
-//   given the lengths of the sides     
-// *******************************************************************
 import java.util.Scanner;
+
 public class RightTriangle
 {
    public static void main (String[] args)

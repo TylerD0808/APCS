@@ -1,9 +1,3 @@
-package Labs2;
-// **************************************************
-//   StringPlay.java
-//
-//   Play with String objects
-// **************************************************
 public class StringPlay
 {
    public static void main (String[] args)

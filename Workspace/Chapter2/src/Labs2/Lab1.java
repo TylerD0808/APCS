@@ -1,10 +1,3 @@
-package Labs2;
-// ***************************************************************
-//   StringManips.java
-//
-//   Test several methods for manipulating String objects
-// ***************************************************************
-
 import java.util.Scanner;
 
 public class Lab1

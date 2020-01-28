@@ -1,10 +1,3 @@
-package Labs2;
-// **************************************************
-//   LuckyNumbers.java
-//
-//   To generate three random "lucky" numbers 
-// **************************************************
-
 import java.util.Random;
 
 public class LuckyNumbers
