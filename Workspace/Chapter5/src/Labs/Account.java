@@ -3,6 +3,7 @@ public class Account
   private double balance;
   private String name;
   private long acctNum;
+  static int numAccts = 0;
 
   //----------------------------------------------
   //Constructor -- initializes balance, owner, and account number
@@ -14,14 +15,19 @@ public class Account
     acctNum = number;
   }
 
-  public Account (double initBal, String owner)
+  public static int numAccounts()
+  {
+    return numAccts;
+  }
+
+  public Account(double initBal, String owner)
   {
       balance = initBal;
       name = owner;
       acctNum = (int)((Math.random() * 9999) + 1);
   }
 
-  public Account (String owner)
+  public Account(String owner)
   {
     name = owner;
     balance = 0.0;
@@ -66,11 +72,16 @@ public class Account
   {
     return balance;
   }
+
+  public long getAcctNumber()
+  {
+    return acctNum;
+  }
   //----------------------------------------------
   // Returns a string containing the name, account number, and balance.
   //----------------------------------------------
 
-  public String toString()
+  public String printSummary()
   {
     return "Name: " + name + "\nBalance: " + balance + "\nAccount Number: " + acctNum;
   }

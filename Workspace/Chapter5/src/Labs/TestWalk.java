@@ -19,8 +19,8 @@ public class TestWalk
 	System.out.print ("Enter the maximum number of steps: ");
 	maxSteps = scan.nextInt();
 
-	System.out.print ("Enter the starting x and y coordinates with � +
-			   �a space between: ");
+	System.out.print ("Enter the starting x and y coordinates with " +
+			"a space between: ");
 	x = scan.nextInt();
 	y = scan.nextInt();
 
