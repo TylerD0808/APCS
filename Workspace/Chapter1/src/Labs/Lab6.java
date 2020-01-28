@@ -1,11 +1,3 @@
-package Labs1;
-
-//********
-//Problems.java
-//
-//Provide lots of syntax errors for the user to correct.
-//********
-
 public class Lab6
 {
 	public static void main(String[] args)

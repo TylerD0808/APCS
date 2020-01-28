@@ -1,11 +1,3 @@
-//********
-//Program Name: Lab3
-//My Name: Tyler DeBrock
-//This program prints numbers in various languages
-//********
-
-package Labs1;
-
 public class Lab3 
 {
 	public static void main(String[] args)
