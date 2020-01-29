@@ -4,9 +4,8 @@ public class ShoppingCart {
     private int itemCount; // total number of items in the cart
     private double totalPrice; // total price of items in the cart
     private int capacity; // current cart capacity
-    Item[] cart;
+    private Item[] cart;
     String contents = "\nShopping Cart\n" + "\nItem\t\tUnit Price\tQuantity\tTotal\n";
-    int i = 0;
     NumberFormat fmt = NumberFormat.getCurrencyInstance();
 
     // -----------------------------------------------------------
@@ -22,20 +21,15 @@ public class ShoppingCart {
     // -------------------------------------------------------
     // Adds an item to the shopping cart.
     // -------------------------------------------------------
-    public void addToCart(String itemName, double price, int quantity) {
+    public void addToCart(Item item) {
+        
         if (itemCount == capacity) {
             increaseSize();
         }
 
-        for (int j = 0; j < cart.length; j++) {
-            if (cart[j] == null) {
-                cart[j] = new Item(itemName, price, quantity);
-                totalPrice += (price * quantity);
-                itemCount++;
-                j++;
-                break;
-            }
-        }
+        cart[itemCount] = item;
+        totalPrice += (item.getPrice() * item.getQuantity());
+        itemCount += 1;
     }
 
     // -------------------------------------------------------
@@ -43,11 +37,16 @@ public class ShoppingCart {
     // summary information.
     // -------------------------------------------------------
     public String toString() {
-        contents += ("\n" + cart[i].getName() + "\t\t" + fmt.format(cart[i].getPrice()) + "\t\t" + cart[i].getQuantity()
-                + "\t\t" + fmt.format(cart[i].getPrice() * cart[i].getQuantity()));
-        // System.out.print(contents);
-        i++;
+        
+        int i = 0;
+        System.out.print(contents);
 
+        while (i < itemCount)
+        {
+            System.out.print("\n" + cart[i].getName() + "\t\t" + fmt.format(cart[i].getPrice()) + "\t\t" + cart[i].getQuantity()
+                + "\t\t" + fmt.format(cart[i].getPrice() * cart[i].getQuantity()));
+            i++;
+        }
         /*
          * for (int i = 0; i < itemCount; i++) { System.out.print("\n" +
          * cart[i].getName() + "\t\t" + fmt.format(cart[i].getPrice()) + "\t\t" +
@@ -55,7 +54,7 @@ public class ShoppingCart {
          * cart[i].getQuantity())); }
          */
 
-        return contents;
+        return "";
     }
 
     // ---------------------------------------------------------

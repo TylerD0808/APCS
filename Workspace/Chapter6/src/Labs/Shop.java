@@ -1,3 +1,4 @@
+import java.time.Year;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -16,7 +17,9 @@ public class Shop
 
 	String keepShopping = "y";
 
-	do 
+	cart = new ShoppingCart();
+
+	do
 	    {
 		System.out.print ("Enter the name of the item: "); 
 		itemName = scan.nextLine();
@@ -29,13 +32,12 @@ public class Shop
 		scan.nextLine();
 
 		item = new Item(itemName, itemPrice, quantity);
-		cart = new ShoppingCart();
-		cart.addToCart(itemName, itemPrice, quantity);
+
+		cart.addToCart(item);
 
 		System.out.println(cart.toString());
 		System.out.println();
 		System.out.println();
-
 		System.out.print ("Continue shopping (y/n)? ");
 		keepShopping = scan.nextLine();
 		System.out.println();

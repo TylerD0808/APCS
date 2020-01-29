@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Shop",
+            "request": "launch",
+            "mainClass": "Labs.Shop",
+            "projectName": "Chapter6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Lab4",
             "request": "launch",
             "mainClass": "Labs2.Lab4",
