@@ -13,7 +13,7 @@ public class Item
     {
 	name = itemName;
 	price = itemPrice;
-	quantity = numPurchased;
+    quantity = numPurchased;
     }
 
     // -------------------------------------------------------
