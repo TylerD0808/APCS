@@ -1,52 +1,82 @@
 import java.text.NumberFormat;
 
-public class ShoppingCart
-{
-    private int itemCount;      // total number of items in the cart
-    private double totalPrice;  // total price of items in the cart
-    private int capacity;       // current cart capacity
+public class ShoppingCart {
+    private int itemCount; // total number of items in the cart
+    private double totalPrice; // total price of items in the cart
+    private int capacity; // current cart capacity
+    Item[] cart;
+    String contents = "\nShopping Cart\n" + "\nItem\t\tUnit Price\tQuantity\tTotal\n";
+    int i = 0;
+    NumberFormat fmt = NumberFormat.getCurrencyInstance();
 
     // -----------------------------------------------------------
-    //  Creates an empty shopping cart with a capacity of 5 items.
+    // Creates an empty shopping cart with a capacity of 5 items.
     // -----------------------------------------------------------
-    public ShoppingCart()
-    {
-	capacity = 5;
-	itemCount = 0;
-	totalPrice = 0.0;
+    public ShoppingCart() {
+        capacity = 5;
+        itemCount = 0;
+        totalPrice = 0.0;
+        cart = new Item[capacity];
     }
 
     // -------------------------------------------------------
-    //  Adds an item to the shopping cart.
+    // Adds an item to the shopping cart.
     // -------------------------------------------------------
-    public void addToCart(String itemName, double price, int quantity)
-    {
+    public void addToCart(String itemName, double price, int quantity) {
+        if (itemCount == capacity) {
+            increaseSize();
+        }
+
+        for (int j = 0; j < cart.length; j++) {
+            if (cart[j] == null) {
+                cart[j] = new Item(itemName, price, quantity);
+                totalPrice += (price * quantity);
+                itemCount++;
+                j++;
+                break;
+            }
+        }
     }
 
     // -------------------------------------------------------
-    //  Returns the contents of the cart together with
-    //  summary information.
+    // Returns the contents of the cart together with
+    // summary information.
     // -------------------------------------------------------
-    public String toString()
-    {
-	NumberFormat fmt = NumberFormat.getCurrencyInstance();
+    public String toString() {
+        contents += ("\n" + cart[i].getName() + "\t\t" + fmt.format(cart[i].getPrice()) + "\t\t" + cart[i].getQuantity()
+                + "\t\t" + fmt.format(cart[i].getPrice() * cart[i].getQuantity()));
+        // System.out.print(contents);
+        i++;
 
-	String contents = "\nShopping Cart\n";
-	contents += "\nItem\t\tUnit Price\tQuantity\tTotal\n";
+        /*
+         * for (int i = 0; i < itemCount; i++) { System.out.print("\n" +
+         * cart[i].getName() + "\t\t" + fmt.format(cart[i].getPrice()) + "\t\t" +
+         * cart[i].getQuantity() + "\t\t" + fmt.format(cart[i].getPrice() *
+         * cart[i].getQuantity())); }
+         */
 
-	for (int i = 0; i < itemCount; i++)
-	    //contents += cart[i].toString() + "\n";
-
-	contents += "\nTotal Price: " + fmt.format(totalPrice);
-	contents += "\n";
-
-	return contents;
+        return contents;
     }
 
     // ---------------------------------------------------------
-    //  Increases the capacity of the shopping cart by 3
+    // Increases the capacity of the shopping cart by 3
     // ---------------------------------------------------------
-    private void increaseSize()
-    {
+    private void increaseSize() {
+        Item[] temp = new Item[cart.length];
+        for (int k = 0; k < cart.length; k++) {
+            temp[k] = cart[k];
+        }
+
+        cart = new Item[cart.length + 3];
+
+        for (int i = 0; i < temp.length; i++) {
+            cart[i] = temp[i];
+        }
+
+        capacity = cart.length;
+    }
+
+    public String end() {
+        return fmt.format(totalPrice);
     }
 }
