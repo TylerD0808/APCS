@@ -1,26 +1,32 @@
-import java.time.Year;
+// ***************************************************************
+//   Shop.java
+//
+//   Uses the Item class to create items and add them to a shopping
+//   cart stored in an ArrayList.
+// ***************************************************************
+
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.text.NumberFormat;
 
 public class Shop
 {
     public static void main (String[] args)
     {
 
+	NumberFormat n = NumberFormat.getCurrencyInstance();
 	Item item;
 	String itemName;
 	double itemPrice;
 	int quantity;
-	ShoppingCart cart;
+	int totalPrice = 0;
 
+	ArrayList<Item> cart = new ArrayList<Item>();
  	Scanner scan = new Scanner(System.in);
 
 	String keepShopping = "y";
 
-	cart = new ShoppingCart();
-
-	do
-	    {
+	do {
 		System.out.print ("Enter the name of the item: "); 
 		itemName = scan.nextLine();
 
@@ -29,23 +35,28 @@ public class Shop
 
 		System.out.print ("Enter the quantity: ");
 		quantity = scan.nextInt();
-		scan.nextLine();
 
 		item = new Item(itemName, itemPrice, quantity);
+		cart.add(item);
+		totalPrice += (item.getPrice() * item.getQuantity());
+		
+		System.out.println("************\tCart\t************");
 
-		cart.addToCart(item);
+		System.out.println("Item\tPrice\tAmount\tTotal Price");
+		for (int h = 0; h < cart.size(); h++) {
+			System.out.println(cart.get(h));
+		}
 
-		System.out.println(cart.toString());
 		System.out.println();
-		System.out.println();
-		System.out.print ("Continue shopping (y/n)? ");
+
+		System.out.print("Continue shopping (y/n)? ");
+		scan.nextLine();
 		keepShopping = scan.nextLine();
+
 		System.out.println();
 	    }
 	while (keepShopping.equals("y"));
 
-	System.out.println();
-	System.out.println("Please pay " + cart.end());
-	System.out.println("\nThank you for shopping with us today!!!");
+	System.out.println("Total Price: " + n.format(totalPrice));
     }
 }
