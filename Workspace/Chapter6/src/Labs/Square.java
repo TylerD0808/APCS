@@ -18,6 +18,7 @@ public class Square {
         for (int c = 0; c < square.length; c++) {
             rowSum += square[row][c];
         }
+        return rowSum;
     }
 
     // --------------------------------------
@@ -28,6 +29,7 @@ public class Square {
         for (int r = 0; r < square.length; r++) {
             colSum += square[r][col];
         }
+        return colSum;
     }
 
     // --------------------------------------
@@ -38,6 +40,7 @@ public class Square {
         for (int i = 0; i < square.length; i++) {
             diag1Sum += square[i][i];
         }
+        return diag1Sum;
     }
 
     // --------------------------------------
@@ -48,6 +51,7 @@ public class Square {
         for (int k = 0; k < square.length; k++) {
             diag2Sum += square[k][(square.length - 1) - k];
         }
+        return diag2Sum;
     }
 
     // --------------------------------------
@@ -93,7 +97,7 @@ public class Square {
     public void printSquare() {
         for (int g = 0; g < square.length; g++) {
             for (int h = 0; h < square.length; h++) {
-                System.out.print(square[g][h]);
+                System.out.print(square[g][h] + " ");
             }
             System.out.print("\n");
         }

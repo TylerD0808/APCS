@@ -1,39 +1,56 @@
 import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
 
-public class SquareTest
-{
-    public static void main(String[] args) throws IOException
-    {
-    Scanner scan = new Scanner(new File("magicData"));
 
-	int count = 1;                 //count which square we're on
-	int size = scan.nextInt();     //size of next square
+public class SquareTest {
+    public static void main(String[] args) throws IOException {
+		Scanner scan = new Scanner(new File("magicData.txt"));
 
-	//Expecting -1 at bottom of input file
-	while (size != -1)
+		int count = 1;                 //count which square we're on
+		int size = scan.nextInt();     //size of next square
+
+		//Expecting -1 at bottom of input file
+		while (size != -1)
 	    {
+			Square square = new Square(size);
 
-		//create a new Square of the given size
+			square.readSquare(scan);
 
-		//call its read method to read the values of the square
+			System.out.println("\n******** Square " + count + " ********");
+			
+			square.printSquare();
+			System.out.println();
+			
+			for (int y = 0; y < size; y++) {
+				System.out.print("Row " + y + " sum: " + square.sumRow(y) + "\n");
+			}
 
-		System.out.println("\n******** Square " + count + " ********");
-		//print the square
+			System.out.println();
 
-		//print the sums of its rows
+			for (int v = 0; v < size; v++) {
+				System.out.print("Column " + v + " sum: " + square.sumCol(v) + "\n");
+			}
+				
+			System.out.println();
 
-		//print the sums of its columns
+			System.out.println("Diagnol 1 sum: " + square.sumMainDiag());
+			System.out.println("Diagnol 2 sum: " + square.sumOtherDiag());
 
-		//print the sum of the main diagonal
+			System.out.println();
 
-		//print the sum of the other diagonal
-
-		//determine and print whether it is a magic square
-
-		//get size of next square
-		size = scan.nextInt();
-
+			if (square.magic() == true) {
+				System.out.println("Square " + count + " is a magic square");
+			}
+			else {
+				System.out.println("Square " + count + " is NOT a magic square");
+			}
+			
+			System.out.println();
+			
+			//get size of next square
+			size = scan.nextInt();
+			count++;
 	    }
-
-   }
+    }
 }
