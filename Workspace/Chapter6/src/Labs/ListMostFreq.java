@@ -11,18 +11,15 @@ public class ListMostFreq {
     public static int go(List<Integer> ray) {
         int most = 0;
         int num = 0;
-        int[] numArray = new int[ray.size()];
-        int raySize = ray.size();
 
         while (ray.isEmpty() == false) {
             int h = 0;
             int g = ray.get(0);
-            int n = 1;
-            while (h < raySize) {
+            int n = 0;
+            while (h < ray.size()) {
                 if (g == ray.get(h)) {
                     n++;
                     ray.remove(h);
-                    raySize--;
                 } else {
                     h++;
                 }
