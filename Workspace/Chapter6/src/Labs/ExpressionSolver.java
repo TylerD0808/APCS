@@ -49,8 +49,10 @@ public class ExpressionSolver {
                 num.remove(u + 1);
                 operator.remove(u);
             }
-
-            u++;
+            else
+            {
+                u++;
+            }
         }
 
         u = 0;
@@ -64,8 +66,6 @@ public class ExpressionSolver {
             num.set(u, temp);
             num.remove(u + 1);
             operator.remove(u);
-
-            u++;
         }
     }
 
