@@ -8,7 +8,6 @@ public class ArrayInit
 		out.println(zero[1]);
 		out.println("\n\n");
 
-
 		int[] aplus = {1,2,3,4,5,6,7};
 		out.println(aplus[0]);
 		out.println(aplus[1]);
@@ -23,7 +22,6 @@ public class ArrayInit
 		out.println(words[0]);
 		out.println(words[4]);
 		out.println(words[1]);
-
 
 		int size=10;
 		int[] intList = new int[size];

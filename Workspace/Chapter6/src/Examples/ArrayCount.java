@@ -22,7 +22,7 @@ public class ArrayCount
 
 	public static void main(String[] args)
 	{
-		int[] nums = {7,7,1,7,8,7,4,3,7, 9,8};
+		int[] nums = {7, 7, 1, 7, 8, 7, 4, 3, 7, 9, 8};
 
 		printIt( nums );
 		System.out.println("\ncount of 7s == " + countIt( nums, 7 ));
