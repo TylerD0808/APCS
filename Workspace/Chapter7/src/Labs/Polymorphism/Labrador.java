@@ -14,7 +14,8 @@ public class Labrador extends Dog
 
     public Labrador(String name,  String color)
     {
-	this.color = color;
+        super(name);
+        this.color = color;
     }
 
     // ------------------------------------------------------------
