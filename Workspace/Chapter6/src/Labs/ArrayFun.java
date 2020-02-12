@@ -64,7 +64,7 @@ public class ArrayFun
 
     public static int[] numRemove(int array[], int num)
     {
-        int newArray[] = new int [array.length - numCounter(array, num)];
+        int[] newArray = new int [array.length - numCounter(array, num)];
         int b = 0;
 
         for (int a = 0; a < array.length; a++)
