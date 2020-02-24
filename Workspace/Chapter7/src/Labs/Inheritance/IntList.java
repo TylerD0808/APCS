@@ -8,7 +8,6 @@
 // ****************************************************************
 public class IntList
 {
-
     protected int[] list;
     protected int numElements = 0;
 
@@ -42,7 +41,7 @@ public class IntList
     public String toString()
     {
 	String returnString = "";
-	for (int i=0; i<numElements; i++)
+	for (int i = 0; i < numElements; i++)
 	    returnString += i + ": " + list[i] + "\n";
 	return returnString;
     }

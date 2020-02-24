@@ -16,5 +16,12 @@ public class ListTest
 	myList.add(200);
 	myList.add(25);
 	System.out.println(myList);
+
+	SortedIntList myList1 = new SortedIntList(10);
+	myList1.add(100);
+	myList1.add(50);
+	myList1.add(200);
+	myList1.add(25);
+	System.out.println(myList1);
     }
 }
