@@ -16,6 +16,7 @@ public class SortedIntList extends IntList
     }
 	else
 	    {
+            boolean addedValue = false;
             for (int y = 0; y < numElements; y++)
             { 
                 if (value < list[y])
@@ -25,12 +26,13 @@ public class SortedIntList extends IntList
                         list[x] = list[x - 1];
                     }
                     list[y] = value;
+                    addedValue = true;
                     break;
                 }
             }
-            if 
+            if (addedValue == false)
             {
-                numElements++;
+                list[numElements] = value;
             }
             numElements++;
 	    }
