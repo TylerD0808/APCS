@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DogTest",
+            "request": "launch",
+            "mainClass": "DogTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WriteTest",
+            "request": "launch",
+            "mainClass": "Labs.Inheritance.WriteTest"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Shop",
             "request": "launch",
             "mainClass": "Labs.Shop",

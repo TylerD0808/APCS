@@ -18,6 +18,8 @@ public class ListTest
 	System.out.println(myList);
 
 	SortedIntList myList1 = new SortedIntList(10);
+	IntList myList2 = new SortedIntList(10);
+
 	myList1.add(100);
 	myList1.add(50);
 	myList1.add(200);
