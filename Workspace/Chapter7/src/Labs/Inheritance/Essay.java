@@ -1,17 +1,26 @@
-java.util.Scanner;
+import java.util.Scanner;
 
-public class Essay extends TestQuestion
-{
+public class Essay extends TestQuestion {
     protected int numLines;
-    Scanner scan = new Scanner(new File("C:/Users/tyl.deb000/Desktop/GitHub/APCS/Workspace/Chapter7/src/Labs/Inheritance/testbank.dat"));
+    private Scanner scan;
 
-    public Essay(int numLines)
-    {
+    public Essay(int numLines, Scanner scan) {
         this.numLines = numLines;
+        this.scan = scan;
+        readQuestion();
     }
 
-    public void readQuestion()
-    {
+    public void readQuestion() {
         testQuestion = scan.nextLine();
+    }
+
+    public String toString() {
+        String lines = "";
+
+        for (int i = -1; i < numLines; i++) {
+            lines += "\n";
+        }
+
+        return testQuestion + lines;
     }
 }
