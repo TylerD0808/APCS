@@ -11,7 +11,7 @@ public class Block implements Locatable {
    private int width = 25;
    private int height = 25;
 
-   private Color color = Color.BLACK;
+   private Color color = Color.WHITE;
 
    public Block() {
 

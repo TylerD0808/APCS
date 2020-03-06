@@ -31,15 +31,22 @@ public class Ball extends Block {
 		this.ySpeed = ySpeed;
 	}
 
-	// add the set methods
+	public void setXSpeed(int x) {
+		xSpeed = x;
+	}
+
+	public void setYSpeed(int y) {
+		ySpeed = y;
+	}
 
 	public void moveAndDraw(Graphics window) {
-		// draw a white ball at old ball location
+		window.setColor(getColor());
+		window.fillOval(getX(), getY(), getWidth(), getHeight());
 
 		setX(getX() + xSpeed);
-		// setY
+		setY(getY() + ySpeed);
 
-		// draw the ball at its new location
+		window.fillOval(getX(), getY(), getWidth(), getHeight());
 	}
 
 	public boolean equals(Object obj) {
