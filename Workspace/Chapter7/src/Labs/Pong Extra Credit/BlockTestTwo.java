@@ -10,7 +10,7 @@ public class BlockTestTwo extends Canvas
 {
 	public BlockTestTwo()
 	{
-		setBackground(Color.WHITE);
+		setBackground(Color.BLACK);
 	}
 
 	public void paint(Graphics window)

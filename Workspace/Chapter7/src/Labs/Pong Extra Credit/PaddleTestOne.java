@@ -15,7 +15,7 @@ class PaddleTestOne
 		Paddle two = new Paddle(100,90);
 		out.println(two);
 		
-		Paddle three = new Paddle(100,100,30);
+		Paddle three = new Paddle(100,100,30,50);
 		out.println(three);
 		
 		Paddle four = new Paddle(100,100,30,50,8);

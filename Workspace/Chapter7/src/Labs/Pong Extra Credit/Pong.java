@@ -50,7 +50,7 @@ public class Pong extends Canvas implements KeyListener, Runnable
 
 		//take a snap shop of the current screen and same it as an image
 		//that is the exact same width and height as the current screen
-		if(back==null)
+		if(back == null)
 		   back = (BufferedImage)(createImage(getWidth(),getHeight()));
 
 		//create a graphics reference to the back ground image

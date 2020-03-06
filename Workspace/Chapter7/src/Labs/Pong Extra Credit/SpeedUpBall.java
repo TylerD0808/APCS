@@ -45,7 +45,7 @@ class SpeedUpBall extends Ball
 
    }
 
-   public void setXSpeed( int xSpd )
+   public void setXSpeed(int xSpd)
    {
 
 
@@ -53,7 +53,7 @@ class SpeedUpBall extends Ball
 
    }
 
-   public void setYSpeed( int ySpd )
+   public void setYSpeed(int ySpd)
    {
 
 
