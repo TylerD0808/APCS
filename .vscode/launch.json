@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Tester",
+            "request": "launch",
+            "mainClass": "Tester",
+            "projectName": "Chapter6 (2)"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DogTest",
             "request": "launch",
             "mainClass": "DogTest"
