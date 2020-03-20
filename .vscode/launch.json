@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Palindrome",
+            "request": "launch",
+            "mainClass": "Labs.Palindrome"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Tester",
             "request": "launch",
             "mainClass": "Tester",
