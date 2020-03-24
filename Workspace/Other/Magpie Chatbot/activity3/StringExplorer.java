@@ -1,27 +1,32 @@
 /**
- * A program to allow students to try out different 
- * String methods. 
+ * A program to allow students to try out different String methods.
+ * 
  * @author Laurie White
  * @version April 2012
  */
-public class StringExplorer
-{
+public class StringExplorer {
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		String sample = "The quick brown fox jumped over the lazy dog.";
-		
-		//  Demonstrate the indexOf method.
+
+		// Demonstrate the indexOf method.
 		int position = sample.indexOf("quick");
-		System.out.println ("sample.indexOf(\"quick\") = " + position);
-		
-		//  Demonstrate the toLowerCase method.
+		System.out.println("sample.indexOf(\"quick\") = " + position);
+		System.out.println();
+
+		// Demonstrate the toLowerCase method.
 		String lowerCase = sample.toLowerCase();
-		System.out.println ("sample.toLowerCase() = " + lowerCase);
-		System.out.println ("After toLowerCase(), sample = " + sample);
-		
-		//  Try other methods here:
+		System.out.println("sample.toLowerCase() = " + lowerCase);
+		System.out.println();
 
+		// Try other methods here:
+		int notFoundPsn = sample.indexOf("slow");
+		System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
+		System.out.println();
+
+		int indexFromZero = lowerCase.indexOf("the");
+		int indexFromTen = lowerCase.indexOf("the", 10);
+		System.out.println("lowerCase.indexOf((\"the\") = " + indexFromZero);
+		System.out.println("lowerCase.indexOf(\"the\" , 10) = " + indexFromTen);
 	}
-
 }
