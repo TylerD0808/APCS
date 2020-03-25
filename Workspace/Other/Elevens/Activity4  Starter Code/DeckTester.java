@@ -21,9 +21,9 @@ public class DeckTester {
 		System.out.println();
 
 		System.out.println("**** Deal a Card ****");
-		System.out.println("  deal: " + d.deal());
+		System.out.println("  deal: " + d.de());   
 		System.out.println();
-		System.out.println();
+		System.out.println();   
 
 		System.out.println("**** Deck Methods After 1 Card Dealt ****");
 		System.out.println("  toString:\n" + d.toString());
@@ -51,6 +51,16 @@ public class DeckTester {
 		System.out.println();
 		System.out.println();
 
-		/* *** TO BE COMPLETED IN ACTIVITY 4 *** */
+		System.out.println("**** New Deck ****");
+		String[] r = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
+		String[] s = {"Hearts", "Diamonds", "Spades", "Clubs"};
+		int[] pV = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11};
+		Deck standardDeck = new Deck(r, s, pV);
+
+		System.out.println(standardDeck.toString());
+		standardDeck.shuffle();
+		System.out.println(standardDeck.toString());
+		standardDeck.shuffle();
+		System.out.println(standardDeck.toString());
 	}
 }
