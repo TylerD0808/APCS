@@ -4,20 +4,19 @@
 public class Shuffler {
 
 	/**
-	 * The number of consecutive shuffle steps to be performed in each call
-	 * to each sorting procedure.
+	 * The number of consecutive shuffle steps to be performed in each call to each
+	 * sorting procedure.
 	 */
-	private static final int SHUFFLE_COUNT = 1;
-
+	private static final int SHUFFLE_COUNT = 4;
 
 	/**
 	 * Tests shuffling methods.
+	 * 
 	 * @param args is not used.
 	 */
 	public static void main(String[] args) {
-		System.out.println("Results of " + SHUFFLE_COUNT +
-								 " consecutive perfect shuffles:");
-		int[] values1 = {0, 1, 2, 3};
+		System.out.println("Results of " + SHUFFLE_COUNT + " consecutive perfect shuffles:");
+		int[] values1 = { 0, 1, 2, 3, 4 };
 		for (int j = 1; j <= SHUFFLE_COUNT; j++) {
 			perfectShuffle(values1);
 			System.out.print("  " + j + ":");
@@ -28,9 +27,8 @@ public class Shuffler {
 		}
 		System.out.println();
 
-		System.out.println("Results of " + SHUFFLE_COUNT +
-								 " consecutive efficient selection shuffles:");
-		int[] values2 = {0, 1, 2, 3};
+		System.out.println("Results of " + SHUFFLE_COUNT + " consecutive efficient selection shuffles:");
+		int[] values2 = { 0, 1, 2, 3 };
 		for (int j = 1; j <= SHUFFLE_COUNT; j++) {
 			selectionShuffle(values2);
 			System.out.print("  " + j + ":");
@@ -42,29 +40,53 @@ public class Shuffler {
 		System.out.println();
 	}
 
-
 	/**
-	 * Apply a "perfect shuffle" to the argument.
-	 * The perfect shuffle algorithm splits the deck in half, then interleaves
-	 * the cards in one half with the cards in the other.
+	 * Apply a "perfect shuffle" to the argument. The perfect shuffle algorithm
+	 * splits the deck in half, then interleaves the cards in one half with the
+	 * cards in the other.
+	 * 
 	 * @param values is an array of integers simulating cards to be shuffled.
 	 */
-	public static void perfectShuffle(int[] values) {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 3 *** */
+	public static void perfectShuffle(int[] cards) {
+		int[] shuffled = new int[cards.length];
+		int k = 0;
+		for (int j = 0; j < ((cards.length + 1) / 2); j++) {
+			shuffled[k] = cards[j];
+			k = k + 2;
+		}
+
+		k = 1;
+
+		for (int j = ((cards.length + 1) / 2); j < cards.length; j++) {
+			shuffled[k] = cards[j];
+			k = k + 2;
+		}
+
+		for (int y = 0; y < cards.length; y++) {
+			cards[y] = shuffled[y];
+		}
 	}
 
 	/**
-	 * Apply an "efficient selection shuffle" to the argument.
-	 * The selection shuffle algorithm conceptually maintains two sequences
-	 * of cards: the selected cards (initially empty) and the not-yet-selected
-	 * cards (initially the entire deck). It repeatedly does the following until
-	 * all cards have been selected: randomly remove a card from those not yet
-	 * selected and add it to the selected cards.
-	 * An efficient version of this algorithm makes use of arrays to avoid
-	 * searching for an as-yet-unselected card.
+	 * Apply an "efficient selection shuffle" to the argument. The selection shuffle
+	 * algorithm conceptually maintains two sequences of cards: the selected cards
+	 * (initially empty) and the not-yet-selected cards (initially the entire deck).
+	 * It repeatedly does the following until all cards have been selected: randomly
+	 * remove a card from those not yet selected and add it to the selected cards.
+	 * An efficient version of this algorithm makes use of arrays to avoid searching
+	 * for an as-yet-unselected card.
+	 * 
 	 * @param values is an array of integers simulating cards to be shuffled.
 	 */
-	public static void selectionShuffle(int[] values) {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 3 *** */
+	public static void selectionShuffle(int[] cards) {
+		int k = cards.length - 1;
+		int test;
+
+		for (int j = k; j > 0; j--) {
+			int r = (int) (Math.random() * cards.length);
+			test = cards[k];
+			cards[k] = cards[r];
+			cards[r] = test;
+		}
 	}
 }
