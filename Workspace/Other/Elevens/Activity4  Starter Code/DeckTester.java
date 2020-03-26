@@ -21,7 +21,7 @@ public class DeckTester {
 		System.out.println();
 
 		System.out.println("**** Deal a Card ****");
-		System.out.println("  deal: " + d.de());   
+		System.out.println("  deal: " + d.deal());   
 		System.out.println();
 		System.out.println();   
 
@@ -52,9 +52,9 @@ public class DeckTester {
 		System.out.println();
 
 		System.out.println("**** New Deck ****");
-		String[] r = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
+		String[] r = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
 		String[] s = {"Hearts", "Diamonds", "Spades", "Clubs"};
-		int[] pV = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11};
+		int[] pV = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11};
 		Deck standardDeck = new Deck(r, s, pV);
 
 		System.out.println(standardDeck.toString());

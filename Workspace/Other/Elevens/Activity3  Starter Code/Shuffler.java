@@ -84,8 +84,8 @@ public class Shuffler {
 
 		for (int j = k; j > 0; j--) {
 			int r = (int) (Math.random() * cards.length);
-			test = cards[k];
-			cards[k] = cards[r];
+			test = cards[j];
+			cards[j] = cards[r];
 			cards[r] = test;
 		}
 	}
