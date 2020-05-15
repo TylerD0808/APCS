@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - APPractice3",
+            "request": "launch",
+            "mainClass": "APPractice3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - APPractice",
             "request": "launch",
             "mainClass": "APPractice"
